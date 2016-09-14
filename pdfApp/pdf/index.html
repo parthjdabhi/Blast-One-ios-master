@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BlastOne</title>
+		<style type="text/css">
+		.container{
+			width:595.2px;
+			min-height: 841.8px;
+			text-align:center;
+		}
+		div.header {
+   			content:url(header.jpg);
+   			width:100%;
+		}
+
+		div.footer {
+   			content:url(footer.jpg);
+   			width:100%;
+		}
+		.title{
+			text-align: left;
+		    font: bold 48px 'Arial Narrow';
+		    color: #2e5292;
+		    line-height: 57px;
+		}
+		.content-text{
+			font: bold 16px 'Arial';
+    		line-height: 15px;
+    		text-align: left;
+		}
+
+		.sub-heading {
+		    text-align: left;
+		    margin-top: 14px;
+		    margin-bottom: 0px;
+		    font: bold 19px 'Arial Narrow';
+		    color: #2e5292;
+		    line-height: 23px;
+		}
+
+		.sub-content-text{
+			font: 14px 'Arial';
+    		line-height: 15px;
+    		text-align: left;
+		}
+		li{
+			text-align: left;
+			margin-left: -13px;
+		}
+		.job-site-pic{
+			width:100%;
+		}
+		.img-col {
+		    float:left;
+		    width: 29%;
+   			padding: 10px;
+   			height: 110px;
+		}
+		.heading-back {
+		    font: bold 19px 'Arial Narrow';
+		    color: #ffffff;
+		    line-height: 23px;
+		    background-color: #b3c6e7;
+		    text-align: left;
+		    margin-top: 10px;
+		    margin-bottom: 1px;
+		    padding: 4px;
+		}
+
+		.secondpage-p{
+			line-height: 0.7em;
+		}
+
+		.ft10 {
+		    font: bold 15px 'Wingdings';
+		    color: #ffffff;
+		    line-height: 16px;
+		}
+		ul.b {list-style-type: square;}
+
+		.secondpage-m-div{
+			height: 140px;
+			width:100%;
+		}
+		.secondpage-p{
+			line-height: 5px;
+		}
+		</style>
+	</head>
+	<body>
+	<center>
+		<!--  START PAGE - 1 -->
+		<div class="container" style="margin-bottom: 83px;">
+			<div class="header">
+			</div>
+			<div class="title">
+				Efficiency Report
+			</div>
+			<p class="content-text">Consultunt: #er_consultant#</p>
+			<p class="content-text">Date: #er_date#</p>
+			<p class="content-text">Customer: #er_customer#</p>
+			<p class="content-text">Facility: #er_facility#</p>
+			<p class="content-text">Product/Process: #er_productprocess#</p>
+
+			<p class="sub-heading">Job Details</p>
+			<p class="sub-content-text">#er_jobdetail# - It was hard to concentrate with the birds singing and Xor screaming, but Laurie waited again, trying to see a pattern. A Round Robin can catch anything...</p>
+
+            <p class="sub-heading">Jobsite Conditions</p>
+			<p class="sub-content-text">(Weather/Time Frames/Access/Hazards) </p>
+			<ul>
+				<li>#job_condition#</li>
+				<li>#job_condition#</li>
+			</ul>
+
+			<p class="sub-heading">Jobsite Pictures</p>
+			<div class="job-site-pic" style="width:100%;">
+				<div class="img-col">
+					<img src="#js_pic#" alt="Job Site Picture" style="width:100%;" />
+				</div>
+				<div class="img-col">
+					<img src="job-pic.jpeg" alt="Job Site Picture" style="width:100%;" />
+				</div>
+				<div class="img-col">
+					<img src="job-pic.jpeg" alt="Job Site Picture" style="width:100%; height: 100%;" />
+				</div>
+			</div>
+			<p style="text-align: left;"><b>Comments: </b></p>
+			<ul>
+                <li>#js_comments#</li>
+                <li>#js_comments#</li>
+			</ul>
+			<div class="footer">
+			</div>
+		</div>
+		<!-- END PAGE - 1 -->
+		<!-- START PAGE - 2 -->
+
+		<div class="container" style="margin-bottom: 90px;">
+			<div class="header"></div>
+			<p class="sub-heading">Equipment Observations and Information</p>
+			<div class="heading-back">Blasting Equipment</div>
+
+			<div class="job-site-pic">
+				<div style="width:70%; display: inline; float:left; text-align: left;">
+					<div class="secondpage-m-div">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px;">Air compressor</b></p>
+						<div style="width:50%; float: left;">
+							<div>Brand: <b>#eo_ac_comments#</b></div>
+							<div>Size (CFM): <b>#eo_ac_size#</b></div>
+							<div>Pressure (PSI): <b>#eo_ac_pressure#</b></div>
+							<div>Half aftercooler?Yes / No: <b>#eo_ac_aftercoller#</b></div>
+							<div>Comments: <b>#eo_ac_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+
+					<div class="secondpage-m-div">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px;">Bull Hose</b></p>
+						<div style="width:50%; float: left;">
+							<div>Size (inches) : <b>#eo_bh_size#</b></div>
+							<div>Pressure (PSI) :<b>#eo_bh_pressure#</b></div>
+							<div>Fitting Type: <b>#eo_bh_fitting#</b></div>
+							<div>Comments: <b>#eo_bh_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+
+					<div class="secondpage-m-div">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px;">Air Dryer / Moisture Removal System</b></p>
+						<div style="width:50%; float: left;">
+							<div>Brand: <b>#eo_ad_brand#</b></div>
+							<div>Size (CFM): <b> #eo_ad_size#</b></div>
+							<div>Pressure (PSI): <b>#eo_ad_pessure#</b></div>
+							<div>Comments:<b>#eo_ad_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+				</div>
+				<div style="width:29%; background-color:#b3c6e7; margin-left: 4px; display: inline; float:left; text-align: left;">
+					<ul class="b">
+						<li>Fully maintained, serviced and fuelled</li>
+						<li>Oil-free outlet</li>
+						<li>Located upwind and away from the blasting area</li>
+					</ul>
+					<br/>
+					<br/>
+					<ul class="b">
+						<li>Large bore hose (four times nozzle orifice minimum)</li>
+						<li>Large connector fittings with whipchecks and/or safety chains installed</li>
+						<li>Coupling gaskets in place</li>
+						<li>Coupling pins fitted</li>
+					</ul><br/><br/>
+					<ul class="b">
+						<li>Condensate drained</li>
+						<li>Air motor lubricant filled</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer"></div>
+		</div>
+		<!-- END PAGE - 2 -->
+
+		<!-- START PAGE - 3 -->
+		<div class="container" style="margin-bottom: 83px;">
+			<div class="header"></div>
+				<div class="job-site-pic">
+					<div style="width:70%; display: inline; float:left; text-align: left;">
+						<div class="secondpage-m-div">
+							<p><b style="font: bold 15px 'Arial';line-height: 18px;">Blasting Equipment</b></p>
+							<div>
+							<div style="width:50%; float: left;">
+								<div>Blast Pot Size: <b>#eo_ac_comments#</b></div>
+								<div>Brand: <b>#be_brand#</b></div>
+								<div>Metering Valves: <b>#be_valve#</b></div>
+								<div>Inlet valve: <b>#be_ivalve#</b></div>
+								<div>Pusherline size: <b>#be_pusherline#</b></div>
+								<div>Choke Valve used?: <b>#be_chokevalve#</b></div>
+								<div>Moisture Separator?: <b>#be_moistsep#</b></div>
+								<div>Restricting fittings: <b>#be_resfitting#</b></div>
+								<div>Deadman controls: <b>#be_deadmancon#</b></div>
+								<div>Air Leaks?:<b>#be_airleak#</b></div>
+								<div>Comments:<b>#be_comments#</b></div>
+							</div>
+							<div style="width: 50%; float: left; height:320px;">
+								<img src="job-pic.jpeg" style="width:100%; max-height: 320px;">
+							</div> 
+							</div>
+						</div>
+
+						<div class="secondpage-m-div">
+							<p><b style="font: bold 15px 'Arial';line-height: 18px;">Blast Accessories</b></p>
+							<div style="width:50%; float: left;">
+								<div>Extension hose ID and Length: <b>#ba_extidlength#</b></div>
+								<div>Whip hose ID and Length:<b>#ba_whipidlength#</b></div>
+								<div>Blast Nozzle type and size Deadman Type: <b>#ba_nozldeadmantype#</b></div>
+								<div>Comments: <b>#ba_comments#</b></div>
+							</div>
+							<div style="width: 50%; float: left; height:160px;">
+								<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+							</div>
+						</div>
+
+						<div class="secondpage-m-div">
+							<p><b style="font: bold 15px 'Arial';line-height: 18px;">Blasting Abrasive</b></p>
+							<div style="width:50%; float: left;">
+								<div>Type: <b>#bab_type#</b></div>
+								<div>Grade: <b> #bab_grade#</b></div>
+								<div>Storage: <b>#bab_storage#</b></div>
+								<div>Lbs on site:<b>#bab_lbs##</b></div>
+								<div>Profile Requirements: <b>#bab_profilereq#</b></div>
+								<div>Comments: <b>#bab_comments#</b></div>
+							</div>
+							<div style="width: 50%; float: left; height:160px;">
+								<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+							</div>
+						</div>
+					</div>
+					<div style="width:29%; background-color:#b3c6e7; margin-left: 4px; display: inline; float:left; text-align: left;">
+						<ul class="b">
+							<li>Handle and Twinline from leaks</li>
+							<li>Abrasive metering valve cleaned, fittings checked / maintained</li>
+							<li>Lid and screen (portable hoppers) fitted</li>
+							<li>Blast outlet gasket checked</li>
+							<li>Test pressure relief valve</li>
+						</ul>
+							<p style="text-align: left; font-size: 14px; padding-left: 2px;"><b>Blast Couplings/Connectors</b></p>
+						
+						<ul class="b">
+							<li>Check gasket and components for wear and leaks</li>
+						</ul>
+						<p style="text-align: left; font-size: 14px; padding-left: 2px;"><b>Deadman Control Handle</b></p>
+						<ul class="b">
+							<li>Check operation for fault start/stop</li>
+							<li>Deadman operating and safety latch in place</li>
+						</ul>
+						<p style="text-align: left; font-size: 14px; padding-left: 2px;"><b>Deadman Control Handle</b></p>
+						<ul class="b">
+							<li>Checked routinely for any pressure and liner/thread wear or damage</li>
+							<li>Check nozzle pressure</li>
+							<li>Check nozzle size for wear</li>
+							<li>Nozzle gasket in place (where applicable)</li>
+						</ul>
+						<p style="text-align: left; font-size: 14px; padding-left: 2px;"><b>Blast Abrasive</b></p>
+						<ul class="b">
+							<li>Kept dry and protected</li>
+							<li>Certificated and batch numbers recorded</li>
+						</ul>
+					</div>
+				</div>
+			<div class="footer"></div>
+		</div>
+		<!-- END PAGE - 3 -->
+
+		<!-- START PAGE - 4 -->
+		<div class="container" style="margin-bottom: 83px;">
+			<div class="header"></div>
+				<p class="sub-heading">Pressure checks with Needle Gage</p>
+				<div class="job-site-pic">
+					<img src="pump.jpg" style="width: 100%; float: center; height:400px; margin-top: 40px; margin-bottom: 10px;">
+					<div class="secondpage-m-div" style="text-align: left;">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px; text-align: left;">Pressure Checks (PSI)</b></p>
+						<div style="width:50%; float: left;">
+							<div>Extension hose ID and Length: <b>#ba_extidlength#</b></div>
+							<div>Whip hose ID and Length:<b>#ba_whipidlength#</b></div>
+							<div>Blast Nozzle type and size Deadman Type: <b>#ba_nozldeadmantype#</b></div>
+							<div>Comments: <b>#ba_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left; height:160px; margin-top: 40px; margin-bottom: 10px;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+                    <div class="job-site-pic" style="width: 100%; float: center; height:100px; margin-bottom: 3px;">
+                    </div>
+				</div>
+			<div class="footer"></div>
+		</div>
+		
+		<!-- END PAGE - 4 -->
+
+		<!-- START PAGE - 5 -->
+		<div class="container" style="margin-bottom: 83px;">
+			<div class="header"></div>
+				<p class="sub-heading">Blasting Test Results</p>
+				<div class="job-site-pic">
+					<div class="secondpage-m-div" style="text-align: left; margin-top: 10px;">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px; text-align: left;">Results - Test#1 (Details):_____________________</b></p>
+						<div style="width:50%; float: left;">
+							<div>Area Blasted (sqft): <b>#tr1_blastarea#</b></div>
+							<div>Abrasive Used (lbs) :<b>#tr1_abrused#</b></div>
+							<div>Time Blasted (hrs): <b>#tr1_#timeblst</b></div>
+							<div>Blasting Production Rate (sqft/hr): <b>#tr1_blstpressure#</b></div>
+							<div>Abrasive Consumption (lbs/hr):<b>#tr1_abrcons#</b></div>
+							<div>Profile Achieved (mils):<b>#tr1_profilearc#</b></div>
+							<div>Comments: <b>#tr1_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left; height:160px; margin-bottom: 3px;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>	
+					<br>
+					<div class="secondpage-m-div" style="text-align: left; margin-top: 10px;">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px; text-align: left;">Results - Test#2 (Details):_____________________</b></p>
+						<div style="width:50%; float: left;">
+							<div>Area Blasted (sqft): <b>#tr2_blastarea#</b></div>
+							<div>Abrasive Used (lbs) :<b>#tr2_abrused#</b></div>
+							<div>Time Blasted (hrs): <b>#tr2_#timeblst</b></div>
+							<div>Blasting Production Rate (sqft/hr): <b>#tr2_blstpressure#</b></div>
+							<div>Abrasive Consumption (lbs/hr):<b>#tr2_abrcons#</b></div>
+							<div>Profile Achieved (mils):<b>#tr2_profilearc#</b></div>
+							<div>Comments: <b>#tr2_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left; height:160px; margin-bottom: 3px;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+					<br>
+					<div class="secondpage-m-div" style="text-align: left; margin-top: 10px;">
+						<p><b style="font: bold 15px 'Arial';line-height: 18px; text-align: left;">Results - Test#3 (Details):_____________________</b></p>
+						<div style="width:50%; float: left;">
+							<div>Area Blasted (sqft): <b>#tr3_blastarea#</b></div>
+							<div>Abrasive Used (lbs) :<b>#tr3_abrused#</b></div>
+							<div>Time Blasted (hrs): <b>#tr3_#timeblst</b></div>
+							<div>Blasting Production Rate (sqft/hr): <b>#tr3_blstpressure#</b></div>
+							<div>Abrasive Consumption (lbs/hr):<b>#tr3_abrcons#</b></div>
+							<div>Profile Achieved (mils):<b>#tr3_profilearc#</b></div>
+							<div>Comments: <b>#tr3_comments#</b></div>
+						</div>
+						<div style="width: 50%; float: left; height:160px; margin-bottom: 3px;">
+							<img src="job-pic.jpeg" style="width:100%; max-height: 160px;">
+						</div>
+					</div>
+
+				</div>
+				<br><br>
+			<div class="footer"></div>
+		</div>
+		<!-- END PAGE - 5 -->
+        
+        </br>
+        
+		<!-- START PAGE - 6 -->
+		<div class="container" style="margin-bottom: 83px;">
+			<div class="header"></div>
+				<p class="sub-heading">Blaster skill level / technique</p>
+				<div class="job-site-pic">
+					<div class="secondpage-m-div" style="text-align: left;">
+						#blasterskill#
+					</div>	
+				</div>
+
+				<p class="sub-heading">Recommendations</p>
+				<div class="job-site-pic">
+					<div class="secondpage-m-div" style="text-align: left;">
+						#recommendation#
+					</div>	
+				</div>
+				<p class="sub-heading">Action Items</p>
+				<div class="job-site-pic">
+					<div class="secondpage-m-div" style="text-align: left;">
+						#actionitems#
+					</div>	
+				</div>
+
+				<p class="sub-heading">Wrap Up</p>
+				<div class="job-site-pic">
+					<div class="secondpage-m-div" style="text-align: left;">
+						#wrapup#
+					</div>	
+				</div>
+			<div class="footer"></div>
+		</div>
+		<!-- END PAGE - 6 -->
+	</center>
+	</body>
+</html>

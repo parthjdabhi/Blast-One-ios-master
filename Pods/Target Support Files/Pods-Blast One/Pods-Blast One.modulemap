@@ -1,0 +1,6 @@
+framework module Pods_Blast_One {
+  umbrella header "Pods-Blast One-umbrella.h"
+
+  export *
+  module * { export * }
+}
