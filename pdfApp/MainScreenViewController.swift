@@ -209,6 +209,7 @@ class MainScreenViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         printAllValues()
+        self.navigationController?.navigationBarHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -457,7 +458,6 @@ func printAllValues()
     print("bullPressure : \(bullPressure)")
     print("bullFitting : \(bullFitting)")
     print("----")
-    
 }
 
 func resetAllValues()
